@@ -83,6 +83,10 @@ powershell -ExecutionPolicy Bypass -File .\install.ps1
 
 See [Installation](docs/INSTALLATION.md) for host locations, restart guidance, and removal.
 
+### Uploading into Claude Code
+
+For Claude Code's plugin uploader, download [`Model-Cowork-Claude-Code-v1.0.1.zip`](https://github.com/Thatweirdguy1/Models-Cowork/releases/download/v1.0.1/Model-Cowork-Claude-Code-v1.0.1.zip). Do **not** upload GitHub's automatically generated “Source code (zip)” archive: it contains the whole multi-host repository, so `.claude-plugin/plugin.json` is not at the archive root.
+
 ## Help improve Model Cowork
 
 Try it on one feature in a real repository. If it helps, please star the project and tell us which host, model, or handoff needs improvement in [Discussions](https://github.com/Thatweirdguy1/Models-Cowork/discussions) or an issue. Practical failure reports are especially valuable.
