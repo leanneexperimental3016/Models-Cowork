@@ -1,5 +1,24 @@
 __pycache__/
 *.py[cod]
+# Never commit local credentials, keys, or certificates.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.jks
+*.keystore
+*.kdbx
+.secrets/
+.credentials/
+.aws/
+.azure/
+.gcp/
 .model-cowork/
 archives/
 dist/
@@ -7,4 +26,3 @@ dist/
 .DS_Store
 Thumbs.db
 .vscode/
-
