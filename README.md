@@ -83,6 +83,10 @@ powershell -ExecutionPolicy Bypass -File .\install.ps1
 
 See [Installation](docs/INSTALLATION.md) for host locations, restart guidance, and removal.
 
+## Help improve Model Cowork
+
+Try it on one feature in a real repository. If it helps, please star the project and tell us which host, model, or handoff needs improvement in [Discussions](https://github.com/Thatweirdguy1/Models-Cowork/discussions) or an issue. Practical failure reports are especially valuable.
+
 ## Safety contract
 
 Model Cowork intentionally does **not**:
@@ -136,4 +140,3 @@ Contributions are welcome—especially better routing fixtures, host compatibili
 ## License
 
 Model Cowork is released under the [MIT License](LICENSE).
-
