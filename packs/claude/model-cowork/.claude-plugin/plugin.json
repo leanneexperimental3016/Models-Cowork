@@ -1,0 +1,8 @@
+{
+  "name": "model-cowork",
+  "version": "1.0.0",
+  "description": "Capability-aware multi-model coding coordination with safe handoffs.",
+  "author": {"name": "Model Cowork contributors"},
+  "license": "MIT",
+  "keywords": ["coding", "agents", "routing", "ollama"]
+}

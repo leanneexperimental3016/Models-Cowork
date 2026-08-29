@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model Cowork Work Ledger",
+  "type": "object",
+  "required": ["version", "assignments", "integration_order"],
+  "properties": {
+    "version": {"const": 1},
+    "assignments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "owner", "files", "status"],
+        "properties": {
+          "id": {"type": "string"}, "owner": {"type": "string"},
+          "files": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+          "status": {"enum": ["planned", "active", "handoff", "verified", "integrated", "blocked"]},
+          "evidence": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "integration_order": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

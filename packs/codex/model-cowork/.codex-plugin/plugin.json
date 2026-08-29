@@ -1,0 +1,35 @@
+{
+  "name": "model-cowork",
+  "version": "1.0.0+codex.20260828145540",
+  "description": "Routes software work across specialist models and coding apps with safe handoffs and token-aware verification.",
+  "author": {
+    "name": "Model Cowork contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "coding",
+    "multi-model",
+    "agents",
+    "routing",
+    "ollama"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Model Cowork",
+    "shortDescription": "Route coding work to specialist models",
+    "longDescription": "Coordinate specialist coding models across Codex, Claude Code, Copilot, Antigravity, and Ollama using capability-aware routing, explicit file ownership, portable handoffs, and evidence-based integration.",
+    "developerName": "Model Cowork contributors",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Route this feature across specialist models.",
+      "Continue this Model Cowork handoff.",
+      "Review and integrate the team's work."
+    ],
+    "brandColor": "#5B5BD6"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Model Cowork Handoff",
+  "type": "object",
+  "required": ["objective", "assigned_files", "constraints", "completed_work", "verification", "risks", "expected_return"],
+  "properties": {
+    "objective": {"type": "string", "minLength": 1},
+    "assigned_files": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "constraints": {"type": "array", "items": {"type": "string"}},
+    "context": {"type": "array", "items": {"type": "string"}},
+    "completed_work": {"type": "array", "items": {"type": "string"}},
+    "verification": {"type": "array", "items": {"type": "string"}},
+    "risks": {"type": "array", "items": {"type": "string"}},
+    "token_budget": {"type": ["integer", "null"], "minimum": 1},
+    "expected_return": {"type": "string", "minLength": 1}
+  },
+  "additionalProperties": false
+}
